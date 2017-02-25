@@ -5,6 +5,8 @@
  */
 package progetto;
 
+import Cards.*;
+
 /**
  *
  * @author Riccardo
@@ -12,5 +14,10 @@ package progetto;
 public class Player {
     Deck deck;
     Hand hand;
+    
+    public void play(Card card){
+        
+    }
+    
     
 }

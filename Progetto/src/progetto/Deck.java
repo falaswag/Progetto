@@ -20,6 +20,7 @@ public class Deck {
     /*metodo da usare nella fase iniziale: aggiungere le carte al deck*/
     public void addCard(Card card){
         cards.push(card);
+        numberOfCards++;
     }
     
     /*pesca (restituisce) una carta, se non ci sono carte restituisce NULL*/
