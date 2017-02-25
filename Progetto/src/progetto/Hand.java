@@ -19,6 +19,23 @@ public class Hand {
     public int getNumberOfCards(){
         return numberOfCards;
     }
+    /*aggiunge una carta alla mano*/
+    public void addCard(Card card){
+        if (numberOfCards <= 7){
+            cards.add(card);
+        }else{
+            removeACard();
+        }
+    }
+    
+    private void removeCardAtIndex(int index){
+        cards.remove(index);
+    }
+    
+    void removeACard(){
+        /*chiede al giocatore di scegliere quale carta rimuovere*/
+        /*chiamerà il metodo removeCardAtIndex();*/
+    }
     
     
 }
