@@ -5,10 +5,39 @@
  */
 package progetto;
 
+import Cards.Card;
+import java.util.*;
+
 /**
  *
  * @author Riccardo
  */
 public class Deck {
+    int numberOfCards;
+    Stack<Card> cards;
+    
+
+    /*metodo da usare nella fase iniziale: aggiungere le carte al deck*/
+    public void addCard(Card card){
+        cards.push(card);
+    }
+    
+    /*pesca (restituisce) una carta, se non ci sono carte restituisce NULL*/
+    public Card draw(){
+        if (numberOfCards>0){
+            Card card = cards.pop();
+            numberOfCards--;
+            return card;
+        }else{
+            return null;
+        }
+    }
+    
+    public void shuffle(){
+        Collections.shuffle(cards);
+    }
+    
+    
+    
     
 }

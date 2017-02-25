@@ -9,6 +9,6 @@ package progetto;
  *
  * @author Riccardo
  */
-public class Stack {
+public class MagicStack {
    
 }
