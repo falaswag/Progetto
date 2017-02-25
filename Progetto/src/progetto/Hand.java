@@ -16,6 +16,10 @@ public class Hand {
     int numberOfCards;
     ArrayList<Card> cards;
 
+    public Hand(){
+        cards = new ArrayList<Card>();
+        numberOfCards = 0;
+    }
     /*aggiunge una carta alla mano*/
     public void addCard(Card card){
         if (numberOfCards <= 7){

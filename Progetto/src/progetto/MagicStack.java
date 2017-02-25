@@ -5,10 +5,12 @@
  */
 package progetto;
 
+import java.util.Stack;
+
 /**
  *
  * @author Riccardo
  */
-public class MagicStack {
+public class MagicStack extends Stack{
    
 }

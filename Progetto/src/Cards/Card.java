@@ -5,12 +5,13 @@
  */
 package Cards;
 
+import java.util.*;
+
 /**
  *
  * @author Riccardo
  */
 public class Card {
-    
-    
+    ArrayList<Effect> effects;
     
 }

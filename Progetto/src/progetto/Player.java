@@ -15,6 +15,15 @@ public class Player {
     Deck deck;
     Hand hand;
     
+    public Player(){
+        deck = new Deck();
+        hand = new Hand();
+    }
+    
+    public void setDeck(Deck deck){
+        this.deck = deck;
+    }
+    
     public void play(Card card){
         
     }

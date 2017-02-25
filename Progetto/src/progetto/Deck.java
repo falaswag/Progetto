@@ -15,6 +15,11 @@ import java.util.*;
 public class Deck {
     int numberOfCards;
     Stack<Card> cards;
+
+    public Deck() {
+        cards = new Stack<Card>();
+        numberOfCards =0;
+    }
     
 
     /*metodo da usare nella fase iniziale: aggiungere le carte al deck*/
