@@ -19,5 +19,11 @@ public class Player {
         
     }
     
+    public void draw(){
+        hand.addCard(deck.draw());
+    }
+    
+    
+    
     
 }

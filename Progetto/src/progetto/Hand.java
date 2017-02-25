@@ -15,23 +15,22 @@ import java.util.*;
 public class Hand {
     int numberOfCards;
     ArrayList<Card> cards;
-    
-    public int getNumberOfCards(){
-        return numberOfCards;
-    }
+
     /*aggiunge una carta alla mano*/
     public void addCard(Card card){
         if (numberOfCards <= 7){
             cards.add(card);
+            numberOfCards++;
         }else{
             removeACard(card);
-            
         }
     }
     
     private void removeCardAtIndex(int index){
         cards.remove(index);
     }
+    
+    
     /*compare la mano nella console nel formato
     0:carta, 1:carta, ..., 6:carta 
     il giocatore dovrà scegliere che carta rimuovere per poter inserire
