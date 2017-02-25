@@ -10,5 +10,7 @@ package progetto;
  * @author Riccardo
  */
 public class Player {
+    Deck deck;
+    Hand hand;
     
 }

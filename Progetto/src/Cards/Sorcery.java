@@ -3,22 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package progetto;
+package Cards;
 
-import Cards.Card;
-import java.util.*;
 
 /**
  *
  * @author Riccardo
  */
-public class Hand {
-    int numberOfCards;
-    ArrayList<Card> cards;
-    
-    public int getNumberOfCards(){
-        return numberOfCards;
-    }
-    
+public class Sorcery extends Card {
     
 }

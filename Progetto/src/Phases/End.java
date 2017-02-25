@@ -3,22 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package progetto;
-
-import Cards.Card;
-import java.util.*;
+package Phases;
 
 /**
  *
  * @author Riccardo
  */
-public class Hand {
-    int numberOfCards;
-    ArrayList<Card> cards;
-    
-    public int getNumberOfCards(){
-        return numberOfCards;
-    }
-    
+public class End extends Phase{
     
 }
